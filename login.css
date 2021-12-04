@@ -1,0 +1,57 @@
+*{margin: 0px;
+    padding: 0px;
+    }
+    input{
+        margin-top: 20px;
+        padding: 8px;
+        position: relative;
+        display: block;
+        width: 250px;
+      
+    }
+        input:hover{border: 2px solid black;
+        /* outline: 0px; */
+    }
+        h3{margin-bottom: 20px;
+           
+        }
+    body{
+        width:100% ;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        display:flex ;
+        background-image:url("./images/5VImS9.png")
+    }
+    #submit{
+        width: 100%;
+        background-color: rgb(71, 71, 223);
+        text-transform:uppercase;
+        color: white;
+       
+       border: 1px solid darkblue;
+       padding:7px;
+       }
+       #submit:hover{
+           background-color: rgb(11, 11, 128);
+       }
+    form{
+        border: 2px solid rgb(75, 105, 93);
+       background-color:rgb(161, 193, 224);
+       padding: 50px 50px;
+       position:absolute;
+        border-radius: 30px;
+        width:25rem;
+       
+    }
+    #error1{
+        color:red;
+    }
+    #error2{
+        color:red;
+    }
+    
+    
+    
