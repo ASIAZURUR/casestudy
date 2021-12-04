@@ -28,7 +28,7 @@ function time(){
            if (last[i].type == "checkbox" && last[i].checked=== true){
               count++;
             }}
-             if(count%5==0){resolve(`Congrats.${count} Tasks have been Successfully Completed `);}
+             if(count%5==0&& count!=0){resolve(`Congrats.${count} Tasks have been Successfully Completed `);}
            else{reject("tasks are not completed")}
            
            
